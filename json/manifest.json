@@ -1,0 +1,24 @@
+{
+    "name": "PWA 10A",
+    "short_name": "PWA",
+    "description": "apliacion pwa de curso UTA",
+    "background-color": "#FFF",
+    "theme_color": "#333",
+    "orientation": "portraint",
+    "display": "standalone",
+    "start_url": "./index.html?utm=source=web_app_manifest",
+    "scope": "/",
+    "lang":"es-Mx",
+
+    "icons":[
+        {
+            "src":"/images/1024.jpg",
+            "size":"1024x1204",
+            "type":"image/png"
+        },{
+            "src":"/images/512.jpg",
+            "size":"512x512",
+            "type": "image/png"
+        }
+    ]
+}

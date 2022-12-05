@@ -1,0 +1,62 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+/************************************* home styles ***************************************/
+
+.div-title {
+    background-color: teal;
+}
+
+.container {
+    display: flex;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+
+.right {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+}
+
+.logo {
+    border-radius: 18px;
+    margin: 2%;
+}
+
+.link {
+    margin: 0% 3%;
+}
+
+.carousel {
+    width: 60vw;
+}
+
+.grid-columns {
+    display: grid;
+    gap: 2rem;
+    grid-template-rows: 20rem;
+    grid-template-columns: repeat(auto-fill, minmax(min(258px, 17rem), 1fr));
+}
+
+/************************************* responsive styles ***************************************/
+
+@media only screen and (max-width: 600px) {
+    .div-title {
+        background-color: blue;
+    }
+}
